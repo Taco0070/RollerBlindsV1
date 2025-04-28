@@ -23,9 +23,9 @@
 #define BOTON_BAJAR  GPIO_NUM_14 //Establece dirección del motor hacia abajo
 
 //Salidas LED
-#define LED_AMARILLO  GPIO_NUM_33 //Indica que la persiana está en posición intermedia
-#define LED_VERDE  GPIO_NUM_25 //Indica que la persiana está en movimiento
-#define LED_ROJO  GPIO_NUM_26 //Indica que la persiana está detenida
+#define LED_AMARILLO  GPIO_NUM_33 //Indica que la persiana está detenida
+#define LED_VERDE  GPIO_NUM_25 //Indica que la persiana gira hacia arriba
+#define LED_ROJO  GPIO_NUM_26 //Indica que la persiana gira hacia abajo
 
 //Entradas de encoder
 #define ENCODER_GPIO_A GPIO_NUM_32
